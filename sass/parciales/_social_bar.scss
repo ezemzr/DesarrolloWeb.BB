@@ -1,0 +1,59 @@
+.social-bar{
+    position: fixed;
+    list-style: none;
+    right: 0%;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+.social_bar_list{
+    list-style: none;
+}
+.icon{
+    color: black;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+    background-color: green;
+}
+.icon-appleMusic{
+    background: pink;
+    color: white;
+    border-radius: 1rem 0 0 0;
+    
+}
+.icon-facebook{
+    background: #2e406e;
+    color: white;
+    
+}
+.icon-twitter{
+    color: white;
+    background: #339dc5;
+}
+
+.icon-instagram{
+    color: pink;
+    background: #3f60a5;
+}
+.icon-youtube{
+    background: #e83028;
+    color: white;
+    
+}
+.icon-contact{
+    background-color: #339dc5;
+    border-radius: 0 0 0 1rem;
+}
+.icon:hover {
+    padding-right: 3rem;
+    // border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0  .5rem rgba(0, 0, 0, 0.42);
+}
+.icon-appleMusic:before {
+    content: "\e911";
+}

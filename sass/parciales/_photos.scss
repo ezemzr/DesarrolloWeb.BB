@@ -1,0 +1,29 @@
+
+/* PHOTOS*/
+.photos-main{
+    height: 1px;
+}
+.galeria{
+    height: 1150px;
+    background-color: black;
+}
+.galeria h2{
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+}
+.albumDeFotos{
+    display: grid;
+    background-color: black;
+    height: 600px;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr)
+}
+.albumDeFotos img{
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+}
+.albumDeFotos div img{
+    border-radius: 20px;
+}
