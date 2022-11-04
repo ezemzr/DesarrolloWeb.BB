@@ -29,6 +29,7 @@ section{
     }
 .carusel{
     margin: 0px;
+    padding-top: 100px;
 }
  /* -----TOUR---- */
 .navbar {
@@ -81,12 +82,19 @@ section{
 }
 .data h2{
     color: white;
+    padding-top: 35px;
 }
 .data h3{
     color:white;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    align-self: center;
 }
 .data p{
     padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .social-bar{
     display: none;
@@ -114,7 +122,12 @@ section{
     grid-template-rows: repeat(8,1fr)
 }
 //CONTACTOS//
-
+.formNombre{
+    width: 250px;
+}
+.parrafo img{
+    width: 300px ;
+}
 .contacto{
     height: 900px;
     width: 100%;
@@ -127,17 +140,13 @@ section{
 .parrafo{
     margin: 0px;
 }
-.parrafo img{
-    width: 200px;
-}
+
 
 .formulario{
     padding-left: 5px;
     padding-right: 5px;
 }
-.formNombre{
-    width: 180px;
-}
+
 }
 
 // /* HASTA 480PX TELEFONOS EN MODO HORIZONTAL  */
@@ -194,17 +203,16 @@ section{
     .tickets{
         margin: 4px;
     }
-}
+
 //MUSIC//
 
 .data{
     display: flex;
     justify-content: center;
     align-items: center;
-    // padding: 20px   
 }
 .btnspt{
-    font-size: 25px;
+    font-size: 20px;
 }
 .musica{
     display: grid;
@@ -243,9 +251,6 @@ section{
 .parrafo img{
     width: 350px;
 }
-.parrafo h2{
-
-}
 .formulario{
     padding-left: 5px;
     padding-right: 5px;
@@ -259,7 +264,7 @@ section{
     font-size: 20px;
     border-color: black;
 }
-
+}
 // /* HASTA 768PX TELEFONOS EN MODO HORIZONTAL  */
 @media screen and (min-width:$tablet){
     .section-uno{
@@ -470,7 +475,7 @@ galeria h2{
 }
 .formNombre{
     display: block;
-    width: 400px    ;
+    width: 400px;
     margin-top: 5px;
     padding: 10px;
     font-size: 1rem;
