@@ -1,4 +1,4 @@
-.social-bar{
+.social__bar{
     position: fixed;
     list-style: none;
     right: 0%;
@@ -8,9 +8,10 @@
     flex-direction: column;
     align-items: flex-end;
     z-index: 100;
-}
-.social_bar_list{
+
+&__list{
     list-style: none;
+}
 }
 .icon{
     color: black;

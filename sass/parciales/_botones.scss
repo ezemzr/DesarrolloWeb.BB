@@ -25,20 +25,19 @@
     text-decoration: none;
 }
 
-
+@mixin btn-music {
+    height: 20px;
+    width: 20px;
+    border-radius: 30px;
+}
 
 /* LOGOS BOTONES*/
 .imgspt{
-    height: 20px;
-    width: 20px;
-    border-radius: 30px;
+    @include btn-music()
 }
 .imgyou{
-    height: 20px;
-    width: 20px;
-    border-radius: 30px;
+    @include btn-music()
 }
-
 .botonesAlbumes{
     margin-bottom: 20px;
 }

@@ -12,31 +12,37 @@ header{
     height: 100px;
     background-color: black;
     z-index: 100;
-}
-.navbar div img{
-    width: 150px;
-    height: 81px;
-    transition: all 2s;
-}
-.navbar div img:hover{
-    width: 180px;
-    height: 90px;
-}
 
-.navbar ul{
+    &__div__img{
+            width: 150px;
+            height: 81px;
+            transition: all 2s;
+    
+
+            &:hover{
+                width: 180px;
+                height: 90px;
+}
+    }
+
+&__lista{
     justify-content: center;
     margin: 0px;
-}
-.navbar ul li{
-    display: inline-flex;
-    margin: 10px;
-}
-.navbar ul li a{
+
+
+        &__item{
+            display: inline-flex;
+            margin: 10px;
+
+            &__link{
     text-decoration: none;
     color: white;
     transition: height 3s;
 
+                &:hover{
+                color: #e83028;
 }
-.navbar ul li a:hover{
-    color: #e83028;
+}
+}
+}
 }
