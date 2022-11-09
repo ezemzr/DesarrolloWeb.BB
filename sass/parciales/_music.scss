@@ -1,12 +1,35 @@
-
+.data{
+    background-color: black;
+    height: 200px;
+    padding: 20px;
+    color:white;
+    
+            &__titulo{
+                font-size: 60px;
+                color: black;
+}
+                &__subtitulo{
+                    margin-top: 20px;
+                    font-size: 30px;
+                    color: black;
+}
+                    &__parrafo{
+                        margin-top: 20px;
+                        font-size: 30px;
+}
+}
+.portadaa{
+    height: 500px;
+}
 .musica{
     padding-top: 10px;
     display: grid;
     background-color: black;
     height: 1200px;
-    grid-template-columns:repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr)
+    grid-template-columns:repeat(1,1fr);
+    grid-template-rows: repeat(6,1fr)
 }
+
 .playmode{
     display: flex;
     justify-content: center;
@@ -14,37 +37,14 @@
     align-items: center;
     padding: 10px;
     margin: 10px;
+    
+        &__album{
+            border-radius: 20px;
+            margin-top: 10px;
+            height: 500px;
+            width: 300px;
 }
-.playmode iframe{
-    border-radius: 20px;
-    margin-top: 10px;
-    height: 500px;
-    width: 300px;
+            &__titulo{
+                color: white;
 }
-.playmode h3{
-
-    color: white;
-}
-.data{
-    background-color: black;
-    height: 200px;
-    padding: 20px;
-
-    color:white
-}
-.data h2{
-    font-size: 60px;
-    color: black;
-}
-.data h3{
-    margin-top: 20px;
-    font-size: 30px;
-    color: black;
-}
-.data p{
-    margin-top: 20px;
-    font-size: 30px;
-}
-.portadaa{
-    height: 500px;
 }

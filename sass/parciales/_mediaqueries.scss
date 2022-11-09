@@ -80,18 +80,18 @@ section{
     padding-top: 20px;
     font-size: 20px;
 }
-.data h2{
+.data__titulo{
     color: white;
     padding-top: 35px;
 }
-.data h3{
+.data__subtitulo{
     color:white;
     padding-right: 20px;
     padding-left: 20px;
     display: flex;
     align-self: center;
 }
-.data p{
+.data__parrafo{
     padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
@@ -108,6 +108,7 @@ section{
     margin: 0px;
     padding-top: 20px;
 }
+
 .footermusica{
     margin: 0px;
 }
@@ -117,9 +118,13 @@ section{
     height: 4300px;
 }
 .albumDeFotos{
-    display: grid;
-    grid-template-columns:repeat(1,1fr);
-    grid-template-rows: repeat(8,1fr)
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.albumDeFotos__fotos{
+    width: 400;
+    height: 300;
 }
 //CONTACTOS//
 .formNombre{

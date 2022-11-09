@@ -1,7 +1,5 @@
 
-.maincontacto{
-    height: 0px;
-}
+
 .contacto{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -12,7 +10,6 @@
     margin: 10px;
     padding: 10px;
     font-size: 20px;
-
         &__img{
             margin-top: 20px;
             width: 500px;
